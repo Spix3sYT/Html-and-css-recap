@@ -402,15 +402,63 @@
 // 4. log the milliseconds 
 // 5. check out .getMilliseconds method
 
-var date1 =  new Date()
-console.log(date1)
-var a = new Date()
-console.log(a.toUTCString)
-var b = new Date()
-b.getHours()
-console.log(b.getMilliseconds)
-var c = new Date()
-c.getMilliseconds
-console.log(c.getMilliseconds)
+// var date1 =  new Date()
+// console.log(date1)
+// var a = new Date()
+// console.log(a.toUTCString)
+// var b = new Date()
+// b.getHours()
+// console.log(b.getMilliseconds)
+// var c = new Date()
+// c.getMilliseconds
+// console.log(c.getMilliseconds)
+
+// 1. Check if a person is elidgible for a driving lisense take the age from the person in an html input field
 
 
+// function Check(){
+//     var input = document.getElementById('i1').value;
+//     if(input >= 16){
+//         console.log("You are elidgible for a driving license");
+//         alert("You are elidgible for a driving license");
+//     }
+//     else{
+//         console.log("You are not elidgible for a driving license");
+//         alert("You are not elidgible for a driving license"); 
+//     }
+    
+// }
+// Task 12
+// Read about foreach
+// Using for of loop iterate through the array and log it to the console
+// Using for each loop iterate throught the array and log it to the console
+// using for each loop itereate thorugh the array and log the element as well as the index of the array.
+// use a numbers array using for each loop iterate through the array and log the element as well as the index of the array and also incerement the element by its index
+
+  
+// var sports = ["soccer", "basketball", "baseball", "hockey"]
+// var numbers = ["22", "45", "33", "44"]
+// for(var sport of sports){
+//     console.log(sports)
+// }
+
+// sports.forEach(function(sport){
+//     console.log(sport)
+//     })
+//     sports.forEach(function(sport,index){
+//         console.log(sport,index)
+//     })
+   
+//          numbers.forEach(function(numbers,index,incerement){
+           
+//             console.log(parseInt(numbers)+index,incerement)
+//         })
+// 1. Calculate the users age using his birth year Write a function to tell the age of a person. Find out current year also take an input of the birth year using prompt.
+// num1 = 0;
+// num2 = 1;
+// for(i = 0; i < 100;i++){  
+//     console.log(num1+num2);
+//     num1 = num1 + 1;
+//     num2 = num2 + 1;
+// }
+ // Task 13

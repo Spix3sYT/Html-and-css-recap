@@ -453,19 +453,3 @@
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
