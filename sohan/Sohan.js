@@ -461,4 +461,49 @@
 //     num1 = num1 + 1;
 //     num2 = num2 + 1;
 // }
+ 
  // Task 13
+// 1. a persons age is 20 years old you need to see if he is elidgible for marriage
+// 2. there are two brothers sohan and ahhan wiith their teacher neha now miss neha tells both of them that if one of the brother fails she's gonna give zero to both of them. Write a condition to check this. sohan scored 20 ahhan scored 3.
+// 3. there is a river which has a water level of 10 meter if the water stays below 20 meter the city is safe if it goes to 15 meter the city is in medium danger and if it dosent go 17 meters everyone is safe.
+// 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
+// person = 20;
+// if(person < 18){
+//     console.log("You aren't elidgible for marriage")
+// }else{
+//     console.log("You are elidgible for marriage")
+// }
+
+// ahan = 20;
+// sohan = 3;
+// if(ahan < 30 || sohan < 2.9){
+//     console.log("You have failed school")
+// }else{
+//     console.log("You passed school")
+// }
+
+// water = 10;
+
+// if(water < 20 || water <= 15 && water < 17 ){
+//     console.log("You are safe")
+// }else{
+//     console.log("You will die in 5 minutes")
+// }
+
+// if(ahan > 31 || sohan > 3){
+//     console.log("You have failed school")
+// }else{
+//     console.log("You passed school")
+// }
+// 1. if the grades are a,aa,b,bb the student is excellent c,cc the student is average if the grades are f,ff then the student should be kicked of the school.
+ var grade = prompt("Type in your overall grade ex: A+,A,A-")
+if(grade == "A+"||grade == "A"||grade == "A-"|| grade == "B+"||grade == "B"||grade == "B-"){
+         console.log("you are a great student")
+     }
+
+     if(grade == "C+"|| grade == "C" ||grade == "C-"){
+        console.log("you are a average student")
+    }
+    if(grade == "F"){
+        console.log("you are a horrible student")
+    }

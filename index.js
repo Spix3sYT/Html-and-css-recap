@@ -526,22 +526,22 @@
 
 */
 
+// 
+// var num1 = 12;
+// var num2 = 6;
 
-var num1 = 12;
-var num2 = 6;
-
-if(num1 > 10 || num2 < 10 ){
-    console.log("Hi this is num1 and num2");
-}else{
-    console.log("Num1 faliled and Num2 was an disappointment")
-}
+// if(num1 > 10 || num2 < 10 ){
+//     console.log("Hi this is num1 and num2");
+// }else{
+//     console.log("Num1 faliled and Num2 was an disappointment")
+// }
 
 
-if(!num1 > 10){
-    console.log("Hi this is num1 and num2");
-}else{
-    console.log("Num1 faliled and Num2 was an disappointment")
-}
+// if(!num1 > 10){
+//     console.log("Hi this is num1 and num2");
+// }else{
+//     console.log("Num1 faliled and Num2 was an disappointment")
+// }
 
 
 // Task 13
@@ -549,3 +549,31 @@ if(!num1 > 10){
 // 2. there are two brothers sohan and ahhan wiith their teacher neha now miss neha tells both of them that if one of the brother fails she's gonna give zero to both of them. Write a condition to check this. sohan scored 20 ahhan scored 3.
 // 3. there is a river which has a water level of 10 meter if the water stays below 20 meter the city is safe if it goes to 15 meter the city is in medium danger and if it dosent go 17 meters everyone is safe.
 // 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
+person = 20;
+ if(person < 18){
+alert("You aren't elidgible for marriage")
+ }else{
+    alert("You are elidgible for marriage")
+ }
+
+ ahan = 20;
+ sohan = 3;
+ if(ahan < 30 || sohan < 2.9){
+    alert("You have failed school")
+ }else{
+    alert("You passed school")
+ }
+
+ water = 10;
+
+ if(water < 20 || water <= 15 && water < 17 ){
+    alert("You are safe")
+ }else{
+    alert("You will die in 5 minutes")
+ }
+
+ if(ahan > 31 || sohan > 3){
+    alert("You have failed school")
+ }else{
+    alert("You passed school")
+ }
